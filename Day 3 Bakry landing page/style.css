@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global classes */
+.w-25{
+    width: 25%;
+}
+.w-50{
+    width: 25%;
+}
+.w-50{
+    width: 50%;
+}
+.w-75{
+    width: 75%;
+}
+.w-100{
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+}
+.j-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: indianred; */
+}
+nav img{
+    width: 50%;
+}
+nav ul{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+    
+}
+nav li{
+    list-style-type: none;
+}
+.nav-links{
+    font-size: 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+/* Home start */
+.first-section{
+    background: url(./assets/wallpaper.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;    
+}
+.main-home a{
+    text-decoration: none;
+    color: white;
+}
+.home-content{
+    /* background-color: #09c; */
+    align-items: center;
+    height: 100%;
+
+}
+.home-content p{
+font-size: 1.5rem;
+}
+.home-content h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.btn{
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    margin: 20px 5px ;
+}
+.btn1{
+    background-color: #8e7754;
+    border-width: 0;
+    transition: 0.4s;
+}
+.btn2{
+    background-color: transparent;
+    border: 2px solid white;
+    transition: 0.4s;
+
+}
+a:hover{
+    color: #8e7754;
+}
+.btn2:hover{
+ background-color: #8e7754;
+ color: white;
+ transition: 0.3s;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
