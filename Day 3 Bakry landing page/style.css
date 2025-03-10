@@ -48,8 +48,8 @@
 .bg-teal{
     background-color: teal;
 }
-.p-5{
-    padding: 5%;
+.p-4{
+    padding: 4%;
 }
 .p-3{
     padding: 3%;
@@ -160,4 +160,42 @@ a:hover{
 
 .third-section{
     background-color: #f8f8f8;
+    
+}
+.section-cards{
+    justify-content: space-around;
+}
+.section-head{
+    text-align: center;
+    padding: 3% 0;
+}
+.section-head h3{
+    font-size: 30px;
+}
+.card{
+    text-align: center;
+}
+.card h4{
+    font-size: 24px;
+}
+
+.fifth-section{
+    background-color:#f8f8f8 ;
+}
+.fifth-section h4{
+    font-size: 30px;
+    text-align: center;
+}
+.map{
+    text-align: center;
+}
+.map iframe{
+    width: 75%;
+    height: 520px; 
+    position: relative; 
+    overflow: hidden;
+    border: 1px solid #888;
+}
+.p-1{
+    padding: 1%;
 }
