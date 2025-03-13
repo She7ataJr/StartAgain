@@ -208,11 +208,21 @@ a:hover{
 .p-1{
     padding: 1%;
 }
+.contact-details{
+    /* background-color: #09c; */
+    width: 20%;
+}
 .contact-details1{
     background: url(./assets/contact-details-map.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+.contact-details1 p {
+    color: white;
+}
+.contact-details h4, .contact-details1 h4{
+    text-align: center;
 }
 footer{
     background-color: #403d38;
@@ -235,4 +245,26 @@ footer p{
 }
 footer i {
     padding: 2% 0;
+}
+.footer-end{
+    background-color: #353330;
+}
+.footer-text a{
+    /* font-size: 2rem; */
+    text-decoration: none;
+    background-color: transparent;
+    border: 3px solid #484540;
+    border-radius: 50%;
+    font-size: 19px;
+    padding: 1%;
+    color: #888;
+    transition: 0.5s;
+}
+.footer-text a:hover{
+    background-color: #00B6F1;
+    border: 3px solid transparent;
+    color: white;
+}
+.text-center{
+    text-align: center;
 }
