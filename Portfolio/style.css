@@ -12,6 +12,9 @@
 .row{
     display: flex;
 }
+.pt-3{
+    padding-top:3% ;
+}
 .j-center{
     justify-content: center;
 }
@@ -20,6 +23,9 @@
 }
 .space{
     justify-content: space-between;
+}
+.around{
+    justify-content: space-around;
 }
 .bg-info{
     background-color: #09c;
@@ -114,4 +120,83 @@ header a:hover{
     color: white;
     font-weight: 300;
     font-size: 26px;
+}
+/* About section */
+.profile-border{
+    /* height: 155px; */
+    border: 5px solid #393838;
+    border-radius: 5px;
+    width: 100%;
+}
+.profile-pic{
+    width: 100%;
+    top: 20px;
+    left: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* .div1, .div2{
+    height: 150px;
+    width: 40%;
+    background-color: teal;
+} */
+/* .personal-row{
+    position: relative;
+}
+.personal-img img{
+    width: 100%;    
+}  */
+/* .personal-img::before{
+    content: '';
+    width: 5px;
+    height: 10%;
+    background-color: #FF305B;
+    position: absolute;
+    left: 10px ;
+    top: 0%;   
+} */
+.personal-text{
+    width: 40%;
+    padding-left: 15px;
+    position: relative;
+}
+.personal-text h3{
+    font-size: 34px;
+    font-weight: 600;
+    padding: 10px;
+    position: relative;
+}
+.personal-text p{
+    color: #7E7E7E;
+    font-size: 18px;
+    padding: 7px 7px 20px;
+    border-bottom: 1px dashed #7E7E7E;
+}
+.personal-text h3::after{
+    content: '';
+    width: 5px;
+    height: 40%;
+    background-color: #FF305B;
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+#about ul{
+    list-style-type: none;
+    color: #7E7E7E;
+    font-size: 18px;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #FF305B;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #393838;
+    color: #FF305B;
 }
