@@ -15,6 +15,9 @@
 .pt-3{
     padding-top:3% ;
 }
+.pt-5{
+    padding: 5% 0;
+}
 .j-center{
     justify-content: center;
 }
@@ -124,7 +127,7 @@ header a:hover{
 /* About section */
 .profile-border{
     /* height: 155px; */
-    border: 5px solid #393838;
+    border: 10px solid #555555;
     border-radius: 5px;
     width: 100%;
 }
@@ -182,10 +185,23 @@ header a:hover{
     left: 0;
     top: 30%;
 }
+.text-black{
+    color: #393838;
+}
+#about{
+    padding-bottom: 3%;
+}
 #about ul{
     list-style-type: none;
     color: #7E7E7E;
     font-size: 18px;
+    padding-top: 2%;
+}
+#about ul li{
+    padding-top: 2%;
+}
+#about ul li span .value{
+    color: black;
 }
 .btn {
     padding: 10px 20px;
@@ -199,4 +215,60 @@ header a:hover{
 .btn:hover{
     background-color: #393838;
     color: #FF305B;
+}
+/* Service style Satrt  */
+.service {
+    /* position: relative; */
+    /* height: 100vh; */
+    text-align: center;
+    background-color: #F1F1F1;
+}
+.service h3{
+    font-size: 40px;
+    font-weight: 800;
+    padding-top:50px ;
+    position: relative;
+}
+.service h3::after{
+    content: '';
+    width: 10%;
+    height: 10px;
+    border-top: 1px solid #FF305B;
+    border-bottom: 1px solid #FF305B;
+    position: absolute;
+    top: 115px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.service h3::before{
+    content: '';
+    width: 20%;
+    height: 10px;
+    border-top: 1px solid #FF305B;
+    /* border-bottom: 1px solid #FF305B; */
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.service-item{
+    transition: 0.4s;
+}
+.service-item:hover{
+    background-color: #fff;
+}
+.service-item i{
+    color: #FF305B;
+    font-size: 30px;
+    padding-bottom: 2%;
+}
+.service-item h4{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+}
+.service-item p{
+    font-size: 18px;
+    color: #7E7E7E;
+    padding: 10px 0px;
 }
