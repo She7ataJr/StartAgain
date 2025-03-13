@@ -185,6 +185,38 @@ header a:hover{
     left: 0;
     top: 30%;
 }
+.social-media{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    transition: top 1s;
+}
+.margin-top{
+    margin-top: 50%;
+}
+.social-media a{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+
+}
+.profile-pic:hover{
+    .social-media{
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        position: absolute;
+        top: 0%;
+        transition: top 1s;
+    }
+}
+.social-media a:hover{
+    color: #FF305B;
+}
 .text-black{
     color: #393838;
 }
